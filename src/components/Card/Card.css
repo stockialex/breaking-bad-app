@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4rem;
+    border-radius: 10px;
+
+    background-image: linear-gradient(
+                      110deg,
+                      hsl(0deg 0% 90%) 0%,
+                      hsl(344deg 0% 88%) 11%,
+                      hsl(344deg 0% 86%) 22%,
+                      hsl(344deg 0% 83%) 33%,
+                      hsl(344deg 0% 81%) 44%,
+                      hsl(344deg 0% 79%) 56%,
+                      hsl(344deg 0% 77%) 67%,
+                      hsl(344deg 0% 75%) 78%,
+                      hsl(344deg 0% 72%) 89%,
+                      hsl(0deg 0% 70%) 100%
+                    );
+}
+
+.card__img {
+    max-width: auto;
+    max-height: 20rem;
+
+    font-weight: 900;
+
+    object-fit: contain;
+}
+
+.card__title, .card__portrayed {
+    text-align: center;
+    color: rgb(49, 48, 48);
+}

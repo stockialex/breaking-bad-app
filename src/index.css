@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: white;
+    /* background-color: #21232A; */
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(
+  110deg,
+  hsl(240deg 4% 15%) 0%,
+  hsl(272deg 5% 19%) 11%,
+  hsl(310deg 5% 23%) 22%,
+  hsl(335deg 7% 28%) 33%,
+  hsl(351deg 8% 33%) 44%,
+  hsl(6deg 9% 37%) 56%,
+  hsl(17deg 11% 41%) 67%,
+  hsl(27deg 11% 45%) 78%,
+  hsl(39deg 10% 48%) 89%,
+  hsl(57deg 9% 52%) 100%
+);
+}

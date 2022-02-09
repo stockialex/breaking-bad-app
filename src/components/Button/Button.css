@@ -1,0 +1,15 @@
+.btn {
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    border: none;
+
+    background-color: rgb(134, 214, 214);
+
+    padding: 0.5rem;
+
+    transition: 0.2s;
+}
+
+.btn:active {
+    background-color: rgb(205, 134, 214);
+}
